@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-color: #bd7808;
+  color: #fdfbfb;
+  padding: 0;
+  margin: 0;
+  background-image: url("/assets/background.jpeg");
+  background-size: cover;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.top-bar {
+  font-size: 2.7em;
+  height: 90px;
+  border-bottom: solid white 1px;
+  padding: 0 25px 0 25px;
+}
+
+.white-box {
+  padding: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.progress-bar {
+  background-color: #fdfbfb;
+  height: 8px;
+  width: 0%;
+}
+
+.btn-goldhen {
+  height: 90px;
+  width: 325px;
+  font-size: 28px;
+  border-style: solid;
+  border-color: #dfdfdf;
+  border-width: 2px;
+  background-color: #f9ba01;
+  color: rgb(238, 238, 238);
+}
+
+.btn-goldhen:enabled:hover {
+  border-color: white;
+  font-size: 32px;
+  word-wrap: 330px;
+}
+
+.btn-goldhen:active {
+  background-color: #e2aa02;
+}
+
+.btn-goldhen:disabled {
+  background-color: #a87e00;
+  color: rgb(197, 197, 197);
+}
